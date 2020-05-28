@@ -10,6 +10,15 @@
         }
       ]
     },
+    "json": {
+      "buildPath": "build/json/",
+      "files": [
+        {
+          "destination": "properties.json",
+          "format": "json"
+        }
+      ]
+    },
     "ios": {
       "transformGroup": "ios",
       "buildPath": "build/ios/Classes/Generated/",
