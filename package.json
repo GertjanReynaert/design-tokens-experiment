@@ -1,5 +1,5 @@
 {
-  "name": "gertjanreynaert/design-tokens-experiment",
+  "name": "gertjanreynaert-design-tokens-experiment",
   "version": "1.0.0",
   "description": "experiment for using npm hosted design tokens in an internal project",
   "main": "build.js",
