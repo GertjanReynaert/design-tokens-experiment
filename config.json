@@ -1,6 +1,15 @@
 {
   "source": ["properties/**/*.json"],
   "platforms": {
+    "javascript": {
+      "buildPath": "build/javascript/",
+      "files": [
+        {
+          "destination": "properties.js",
+          "format": "javascript/module"
+        }
+      ]
+    },
     "ios": {
       "transformGroup": "ios",
       "buildPath": "build/ios/Classes/Generated/",
