@@ -1,11 +1,16 @@
 {
-  "name": "@gertjanreynaert/design-tokens-experiment",
+  "name": "style-dictionary-example-complete",
   "version": "1.0.0",
-  "description": "experiment for using npm hosted design tokens in an internal project",
-  "main": "index.js",
+  "description": "",
+  "main": "build.js",
   "scripts": {
+    "build": "node_modules/.bin/style-dictionary build",
+    "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Gertjan Reynaert",
-  "license": "MIT"
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "style-dictionary": "2.9.0"
+  }
 }
